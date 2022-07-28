@@ -1,2 +1,2 @@
 # Web-Dev-Bootcamp
-This is a repo for Angela Yu's Web Development Bootcamp.
+I use Bootstrap 5 in this repo.
