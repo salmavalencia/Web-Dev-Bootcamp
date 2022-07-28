@@ -1,0 +1,224 @@
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+  background-color: white;
+}
+#title > .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  font-family: sans-serif;
+  text-align: center;
+}
+.description-text{
+
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-top: 30px;
+
+}
+.nav-item{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+}
+.navbar{
+  padding: 0 0 4.5rem 0 !important;
+  background-color: #ff4c68;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.navbar > .container-fluid{
+  padding: 0;
+}
+
+/*Buttons*/
+.download-button{
+  margin: 5% 0% 5% 0;
+  font-family: 'Montserrat', sans-serif;
+}
+/*Title image*/
+.title-image{
+  width: 60%;
+
+  transform: rotate(25deg);
+  position: absolute;
+  right: 10%;
+}
+@media (max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+    margin-top: 20px;
+  }
+  #title > .container-fluid{
+    text-align: center;
+  }
+}
+/*Feature items*/
+#features{
+  padding: 7% 15%;
+
+  position: relative;
+}
+.feature-item{
+  padding: 5%;
+
+}
+
+.feature-item > h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.feature-item > i{
+  color: #ef8172;
+
+}
+.feature-item > p{
+  color: #8f8f8f;
+}
+
+.feature-item > i:hover{
+  color: #ff4c68;
+}
+/*Testimonal section*/
+
+#testimonials{
+
+  background-color: #ef8172;
+
+
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/*Press*/
+#press{
+  padding-bottom: 3%;
+  background-color: #ef8172;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Cards/Pricing*/
+
+.card{
+  /* Fixed height, maybe edit this out */
+  height: 344px;
+}
+.card-body{
+  position: relative;
+}
+.card-body > p{
+  color: #8f8f8f;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.card-body > h2{
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+.card-header > h3{
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.d-grid{
+  /* To align the buttons */
+  position: absolute;
+  bottom: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+#pricing{
+  padding: 100px;
+  font-family: 'Montserrat';
+}
+#pricing > h2{
+  font-weight: 700;
+}
+#pricing > p{
+  color: #8f8f8f;
+}
+
+.princing-column{
+  padding: 3% 2%;
+}
+
+/* CTA */
+#cta{
+  display: flex;
+  justify-content: center;
+}
+
+.final-section > h3{
+  font-weight: 800;
+  font-size: 2.5rem;
+  margin: 10% 15% 5% 15%;
+
+}
+.download-button-right{
+  margin-left: 10px;
+}
+.download-button2{
+  font-family: 'Montserrat';
+  margin: 5% 2% 17% 2%;
+}
+
+/* Actual footer */
+
+.social-media-icons{
+  margin: 10% auto 3% auto;
+}
+.fa-social-media{
+  margin: 0 0.8% 0 0.8%;
+  color: black;
+}
+.copyright{
+  margin-bottom: 10%;
+  color: #8f8f8f;
+}
+.title-image-div{
+  position: relative;
+}
